@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{b94f0f9c-1d45-4a5f-bd7f-f3846ccfb681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\AllegroMain">
+      <UniqueIdentifier>{c2f9df80-88f7-433b-be41-07bc7ecb24da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Systems\Event">
+      <UniqueIdentifier>{7b3e65cd-8783-4edb-a829-7cff35ae8d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GlobalEnvironment">
+      <UniqueIdentifier>{697dfc1d-651c-4b6c-91b4-e666ec453f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components &amp; Entities &amp; Systems">
+      <UniqueIdentifier>{9accd345-5901-4fd5-849e-be940b7a0824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components &amp; Entities &amp; Systems\Entity">
+      <UniqueIdentifier>{f97839e1-1a39-4d1e-9afa-803d0b16e9cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components &amp; Entities &amp; Systems\Component">
+      <UniqueIdentifier>{82150963-50f5-4ced-9586-a139ec2647ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components &amp; Entities &amp; Systems\World">
+      <UniqueIdentifier>{008bf595-586e-43d2-968e-6e7a08766bd8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="AllegroMainSystem.cpp">
+      <Filter>Systems\AllegroMain</Filter>
+    </ClCompile>
+    <ClCompile Include="AllegroEventSystem.cpp">
+      <Filter>Systems\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Components &amp; Entities &amp; Systems\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseComponent.cpp">
+      <Filter>Components &amp; Entities &amp; Systems\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Components &amp; Entities &amp; Systems\World</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionComponent.cpp">
+      <Filter>Components &amp; Entities &amp; Systems\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>Components &amp; Entities &amp; Systems\Component</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AllegroMainSystem.h">
+      <Filter>Systems\AllegroMain</Filter>
+    </ClInclude>
+    <ClInclude Include="AllegroEventSystem.h">
+      <Filter>Systems\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="AllegroGlobalEnvironment.h">
+      <Filter>GlobalEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Components &amp; Entities &amp; Systems\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseComponent.h">
+      <Filter>Components &amp; Entities &amp; Systems\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Components &amp; Entities &amp; Systems\World</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>Components &amp; Entities &amp; Systems\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionComponent.h">
+      <Filter>Components &amp; Entities &amp; Systems\Component</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
