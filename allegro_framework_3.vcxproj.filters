@@ -29,6 +29,12 @@
     <Filter Include="Components &amp; Entities &amp; Systems\World">
       <UniqueIdentifier>{008bf595-586e-43d2-968e-6e7a08766bd8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="AllegroClasses">
+      <UniqueIdentifier>{3fbe4335-c2c6-4e9c-8399-a382b6dd3e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{f68061f5-e51f-4e84-b945-f811176b604a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -52,8 +58,17 @@
     <ClCompile Include="PositionComponent.cpp">
       <Filter>Components &amp; Entities &amp; Systems\Component</Filter>
     </ClCompile>
-    <ClCompile Include="RenderComponent.cpp">
+    <ClCompile Include="SpriteComponent.cpp">
       <Filter>Components &amp; Entities &amp; Systems\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="AllegroBitmap.cpp">
+      <Filter>AllegroClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils2.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossPlatformTimer.cpp">
+      <Filter>Utils</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -75,11 +90,23 @@
     <ClInclude Include="World.h">
       <Filter>Components &amp; Entities &amp; Systems\World</Filter>
     </ClInclude>
-    <ClInclude Include="RenderComponent.h">
-      <Filter>Components &amp; Entities &amp; Systems\Component</Filter>
-    </ClInclude>
     <ClInclude Include="PositionComponent.h">
       <Filter>Components &amp; Entities &amp; Systems\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteComponent.h">
+      <Filter>Components &amp; Entities &amp; Systems\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="AllegroBitmap.h">
+      <Filter>AllegroClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils2.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilDefs.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossPlatformTimer.h">
+      <Filter>Utils</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

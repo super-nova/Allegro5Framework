@@ -1,13 +1,14 @@
 #pragma once
 #include "basecomponent.h"
-class RenderComponent :
+class SpriteComponent :
 	public BaseComponent
 {
 public:
-	float x;
-	float y;
-	RenderComponent(void);
-	~RenderComponent(void);
+
+	
+
+	SpriteComponent(void);
+	~SpriteComponent(void);
 
 	static componentId compTypeId;
 

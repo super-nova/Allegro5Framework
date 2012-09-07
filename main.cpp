@@ -4,7 +4,7 @@
 
 #include "PositionComponent.h"
 
-#include "RenderComponent.h"
+#include "SpriteComponent.h"
 
 int main()
 {
@@ -20,11 +20,11 @@ int main()
 
 	world.AddComponent( ent , new PositionComponent(100,100) );
 
-	world.AddComponent( ent , new RenderComponent() );
+	world.AddComponent( ent , new SpriteComponent() );
 
 	PositionComponent *pc = (PositionComponent*)world.GetComponent(ent, PositionComponent::compTypeId);
 
-	RenderComponent *rc = (RenderComponent*)world.GetComponent(ent, RenderComponent::compTypeId);
+	SpriteComponent *rc = (SpriteComponent*)world.GetComponent(ent, SpriteComponent::compTypeId);
 
 	if( pc ) std::cout << pc->x << std::endl << pc->y << std::endl;
 
